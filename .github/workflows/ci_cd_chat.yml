@@ -56,7 +56,7 @@ jobs:
           name: coverage-report
           path: htmlcov/
           
-  docker:
+  build:
     runs-on: ubuntu-latest
     needs: tests  # Ce job dépend du job de build précédent
 
