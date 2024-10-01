@@ -1,4 +1,4 @@
-name: CI/CD for Chat Service
+name: CI/CD for workflow backend
 
 on:
   push:
