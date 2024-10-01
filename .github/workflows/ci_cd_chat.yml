@@ -58,7 +58,7 @@ jobs:
           
   docker:
     runs-on: ubuntu-latest
-    needs: build  # Ce job dépend du job de build précédent
+    needs: tests  # Ce job dépend du job de build précédent
 
     steps:
       - name: Checkout code
