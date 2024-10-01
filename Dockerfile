@@ -16,7 +16,6 @@ WORKDIR /app
 
 # Copier requirements.txt et le dossier requirements/
 COPY requirements.txt .
-COPY requirements/ requirements/
 
 # Créer un environnement virtuel et mettre à jour pip
 RUN python3 -m venv /opt/venv
